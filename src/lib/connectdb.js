@@ -2,7 +2,7 @@ const { Pool } = require("pg");
 const { pgConfig } = require("../config.js");
 const pool = new Pool({
   connectionString:
-    "postgres://hdthfvsf:YMwM6qQo3wBGVZbl0AG6tBu6v5QuBo2T@mouse.db.elephantsql.com/hdthfvsf",
+    "postgres://shdupjkk:j8Zioa5o-E9SlfzZQTIaYbQGsf_0jqsh@balarama.db.elephantsql.com/shdupjkk",
 });
 
 const fetch = async (sqlQuery, ...params) => {
